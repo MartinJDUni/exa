@@ -16,8 +16,8 @@ const Repositories = () => {
     return (
         <section id="Seccion2" className="px-6 py-4 ">
             <div>
-                <h2>Mis Repositorios:</h2>
-                <ul>
+                <h2>Mis Repositorios en carrusel:</h2>
+                <ul className="slider">
                     {repositories.map((repo: any) => (
                         <li key={repo.id}>
                             <a href={repo.html_url} target="_blank" rel="noreferrer">
