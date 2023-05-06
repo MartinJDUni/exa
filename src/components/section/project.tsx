@@ -15,7 +15,7 @@ const Repositories = () => {
 
     return (
         <section id="Seccion2" className="px-6 py-4 ">
-            <h2>Mis Repositorios en carrusel:</h2>
+            <h1>Mis Repositorios en carrusel:</h1>
             <div>
                 <ul>
                     {repositories.map((repo: any) => (

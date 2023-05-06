@@ -10,13 +10,13 @@ function HEADER() {
       <nav className="flex items-center">
         <ul id="Menu">
           <li >
-            <Link href="#Seccion1" className="text-gray-700 hover:text-gray-900">Personal</Link>
+            <Link href="#Seccion1" id="S1"className="text-gray-700 hover:text-gray-900">Personal</Link>
           </li>
           <li >
-            <Link href="#Seccion2" className="text-gray-700 hover:text-gray-900">Proyecto</Link>
+            <Link href="#Seccion2" id="S2"className="text-gray-700 hover:text-gray-900">Proyecto</Link>
           </li>
           <li>
-            <Link href="#Seccion3" className="text-gray-700 hover:text-gray-900">Contacto</Link>
+            <Link href="#Seccion3" id="S3" className="text-gray-700 hover:text-gray-900">Contacto</Link>
           </li>
         </ul>
       </nav>
