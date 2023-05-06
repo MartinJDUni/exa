@@ -16,7 +16,7 @@ function HEADER() {
             <Link href="#Seccion2" id="S2"className="text-gray-700 hover:text-gray-900">Proyecto</Link>
           </li>
           <li>
-            <Link href="#Seccion3" id="S3" className="text-gray-700 hover:text-gray-900">Contacto</Link>
+            <Link href="#Seccion3" id="S3" className="text-gray-700 hover:text-gray-900">Contratar</Link>
           </li>
         </ul>
       </nav>

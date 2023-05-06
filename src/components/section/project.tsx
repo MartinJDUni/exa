@@ -14,18 +14,20 @@ const Repositories = () => {
     }, []);
 
     return (
-        <section id="Seccion2" className="px-6 py-4 ">
-            <h1>Mis Repositorios en carrusel:</h1>
-            <div>
-                <ul>
+        <section id="Seccion2">
+            <h1>Mis Repositorios</h1>
+            <div id="List">
                     {repositories.map((repo: any) => (
-                        <li key={repo.id}>
+                        <div id="Object" key={repo.id}>
+                            <h3>{repo.name}</h3>
+                            <p>Descripcion:<br/>
+                            {repo.description}</p>
                             <a href={repo.html_url} target="_blank" rel="noreferrer">
-                                {repo.name}
+                                <img src="Carpeta.png" alt="Carpeta" />
+                                Ver en GITHUD
                             </a>
-                        </li>
+                        </div>
                     ))}
-                </ul>
             </div>
         </section>
     );

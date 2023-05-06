@@ -1,13 +1,13 @@
 import React from "react";
 import  PERSONAL from "./section/personal";
-import Repositories from "./section/project";
+import Carrusel from "./section/project";
 import CALL from "./section/call";
 
 function BODY(){
     return(
         <main>
             <PERSONAL />
-            <Repositories />
+            <Carrusel />
             <CALL />
         </main>
     );
