@@ -19,7 +19,7 @@ const Repositories = () => {
             <div id="List">
                     {repositories.map((repo: any) => (
                         <div id="Object" key={repo.id}>
-                            <h3>{repo.name}</h3>
+                            <h3>Nombre: {repo.name}</h3>
                             <p>Descripcion:<br/>
                             {repo.description}</p>
                             <a href={repo.html_url} target="_blank" rel="noreferrer">
